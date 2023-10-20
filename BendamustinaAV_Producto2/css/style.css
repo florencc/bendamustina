@@ -1,0 +1,422 @@
+body {
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 768px;
+    background-image: url('../images/bck.png');
+    background-color: white;
+}
+
+nav {
+    padding:0;
+    margin: 0;
+    position: absolute;
+    top: 701px;
+    left: 63px;
+    z-index: 30;
+    width: 920px;
+   
+}
+
+ol {
+    padding:0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 0;
+    width:79px;
+    background-color: #e41f227a;
+    margin: .1rem;
+    opacity: 0;
+}
+
+a {
+    font-family: 'MyriadProSemibold';
+    font-weight: bold;
+    padding-top: 0;
+    margin-top: 0;
+    text-decoration: none;
+    font-size: 7.4px;
+    color: white;
+}
+
+
+a img {
+  width: 24px;
+  height: 48px;
+}
+
+.logoBtn {
+  position: absolute;
+  top: 698px;
+  left: 16px;
+  width: 46px;
+  height: 57px;
+  background-color: #3d1fe4a5;
+  opacity: 0;
+}
+
+.fullBtn {
+  width: 1024px;
+  height: 768px;
+  background-color: #E41F23;
+  opacity: 0;
+}
+
+.btn1 {
+  position: absolute;
+  top: 580px;
+  left: 900px;
+  background-color: rgba(0, 255, 255, 0.351);
+  opacity: 0;
+}
+
+.btn2 {
+  position: absolute;
+  top: 580px;
+  left: 6px;
+  background-color: rgba(0, 255, 255, 0.351);
+  opacity: 0;
+}
+
+.btn3 {
+  position: absolute;
+  top: 498px;
+  left:184px;
+}
+
+.btn4 {
+  position: absolute;
+  top: 498px;
+  left: 540px;
+}
+
+.btn5 {
+  top: absolute;
+  right: 0;
+  left: 0;
+}
+
+footer {
+  position: absolute;
+  top: 629px;
+  left: 903px;
+  z-index: -2;
+  overflow: hidden;
+  height: 68px;
+}
+
+.homeIcon{
+  width:30px;
+  padding-top: 2px;
+  margin-right: 10px;
+}
+
+.surviveItem1 {
+  position: absolute;
+  top: 5px;
+  left: 397px;
+}
+
+.surviveItem2 {
+  position: absolute;
+  top: 14px;
+  left: 390px;
+}
+
+.miraCirc{
+  position: absolute;
+  top: 478px;
+  left: 783px;
+}
+
+.upperSquares {
+  position: absolute;
+  top: 60px;
+  left: 686px;
+  z-index: -20;
+}
+
+.lowerSquares {
+  position: absolute;
+  top: 613px;
+  left: 28px;
+}
+
+.active {
+    background-color: #E41F23;
+}
+
+.homeBtn {
+    width: 14px;
+    height: 14px;
+    padding-left: 40px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 7px;
+    left: -26px;
+}
+
+.slide {
+    position: absolute;
+    z-index: -11;
+}
+
+.anim1 {
+    position: absolute;
+    z-index: -10;
+    left: 424px;
+    top: 60px;
+}
+
+.logo {
+  position: absolute;  
+  top: 31px;
+  left: 671px;
+}
+
+.slogan {
+  position: absolute;
+  top: -25px;
+  left: -13px;
+}
+
+.titulo {
+  position: absolute;
+  top: 265px;
+  left: 86px;
+}
+
+.banner {
+  position: absolute;
+  top: 43px;
+  left: 745px;
+}
+
+.circ {
+  position: absolute;
+  top: 246px;
+  left: 11px;
+}
+
+.graph1 {
+  position: absolute;
+  top: 351px;
+  left: 117px;
+}
+
+.graph2 {
+  position: absolute;
+  top: 352px;
+  left: 613px;
+}
+
+.bod {
+  position: absolute;
+}
+
+.bod2 {
+  position: absolute;
+  top: 317px;
+    left: 78px;
+}
+.bod3 {
+  position: absolute;
+  top: 356px;
+    left: 462px;
+}
+.bod4 {
+  position: absolute;
+  top: 493px;
+    left: 461px;
+}
+.bod5 {
+  position: absolute;
+  top: 485px;
+  left: 783px;
+}
+
+.arrowG {
+  position: absolute;
+  top: 369px;
+  left: 323px;
+}
+
+.arrowNxt{
+  position: absolute;
+  top: 380px;
+    left: 958px;
+    width: 57px;
+    height: 52px;
+}
+
+.arrowPrv{
+  position: absolute;
+  top: 384px;
+  left: 20px;
+  height: 49px;
+  width: 49px;
+  background-color: blueviolet;
+  opacity: 0;
+}
+
+.label {
+  position: absolute;
+  top: 654px;
+  left: 62px;
+}
+
+/*slide ANIMATIONS*/
+.sldBanner {
+  animation: fadeInsldBanner ease 5s;
+  -webkit-animation: fadeInsldBanner ease 5s;
+  -moz-animation: fadeInsldBanner ease 5s;
+  -o-animation: fadeInsldBanner ease 5s;
+  -ms-animation: fadeInsldBanner ease 5s;
+}
+
+@keyframes fadeInsldBanner { 0% { opacity:0; } 80% { opacity:0; } 100% { opacity:1; }}
+@-moz-keyframes fadeInsldBanner { 0% { opacity:0; } 80% { opacity:0; } 100% { opacity:1; }}
+@-webkit-keyframes fadeInsldBanner { 0% { opacity:0; } 80% { opacity:0; } 100% { opacity:1; }}
+@-o-keyframes fadeInsldBanner { 0% { opacity:0; } 80% { opacity:0; } 100% { opacity:1; }}
+@-ms-keyframes fadeInsldBanner { 0% { opacity:0; } 80% { opacity:0; } 100% { opacity:1; }}
+
+/*slide ANIMATIONS*/
+.sld0 {
+  animation: fadeInSLD0 ease 5s;
+  -webkit-animation: fadeInSLD0 ease 5s;
+  -moz-animation: fadeInSLD0 ease 5s;
+  -o-animation: fadeInSLD0 ease 5s;
+  -ms-animation: fadeInSLD0 ease 5s;
+}
+
+@keyframes fadeInSLD0 { 0% { top: -200px; } 10% {top: 31px; }}
+@-moz-keyframes fadeInSLD0 { 0% { top: -200px; } 10% {top: 31px; }}
+@-webkit-keyframes fadeInSLD0 { 0% { top: -200px; } 10% {top: 31px; }}
+@-o-keyframes fadeInSLD0 { 0% { top: -200px; } 10% {top: 31px; }}
+@-ms-keyframes fadeInSLD0 { 0% { top: -200px; } 10% {top: 31px; }}
+
+/*slide ANIMATIONS*/
+.sld1 {
+  animation: fadeInSLD1 ease 5s;
+  -webkit-animation: fadeInSLD1 ease 5s;
+  -moz-animation: fadeInSLD1 ease 5s;
+  -o-animation: fadeInSLD1 ease 5s;
+  -ms-animation: fadeInSLD1 ease 5s;
+}
+
+@keyframes fadeInSLD1 { 5% { left: 1200px; } 10% {left: 903px; }}
+@-moz-keyframes fadeInSLD1 { 5% { left: 1200px; } 10% {left: 903px; }}
+@-webkit-keyframes fadeInSLD1 { 5% { left: 1200px; } 10% {left: 903px; }}
+@-o-keyframes fadeInSLD1 { 5% { left: 1200px; } 10% {left: 903px; }}
+@-ms-keyframes fadeInSLD1 { 5% { left: 1200px; } 10% {left: 903px; }}
+
+/*slide ANIMATIONS*/
+.sld2 {
+  animation: fadeInSLD2 ease 2s;
+  -webkit-animation: fadeInSLD2 ease 2s;
+  -moz-animation: fadeInSLD2 ease 2s;
+  -o-animation: fadeInSLD2 ease 2s;
+  -ms-animation: fadeInSLD2 ease 2s;
+}
+
+@keyframes fadeInSLD2 { 0% { opacity:0; left:-300px;} 10%{ opacity:0; } 20% { opacity:1; }}
+@-moz-keyframes fadeInSLD2 { 0% { opacity:0; left:-300px;} 10%{ opacity:0; } 20% { opacity:1; }}
+@-webkit-keyframes fadeInSLD2 { 0% { opacity:0; left:-300px;} 10% { opacity:0; } 20%{ opacity:1; }}
+@-o-keyframes fadeInSLD2 { 0% { opacity:0; left:-300px;} 10% { opacity:0; } 20%{ opacity:1; }}
+@-ms-keyframes fadeInSLD2 { 0% { opacity:0; left:-300px;} 10% { opacity:0; } 20%{ opacity:1; }}
+
+/*slide ANIMATIONS*/
+.sld3 {
+  animation: fadeInSLD3 ease 5s;
+  -webkit-animation: fadeInSLD3 ease 5s;
+  -moz-animation: fadeInSLD3 ease 5s;
+  -o-animation: fadeInSLD3 ease 5s;
+  -ms-animation: fadeInSLD3 ease 5s;
+}
+
+@keyframes fadeInSLD3 { 0% { opacity:0; } 30%{ opacity:0; } 40% { opacity:1; }}
+@-moz-keyframes fadeInSLD3 { 0% { opacity:0; } 30%{ opacity:0; } 40% { opacity:1; }}
+@-webkit-keyframes fadeInSLD3 { 0% { opacity:0; } 30% { opacity:0; } 40%{ opacity:1; }}
+@-o-keyframes fadeInSLD3 { 0% { opacity:0; } 30% { opacity:0; } 40%{ opacity:1; }}
+@-ms-keyframes fadeInSLD3 { 0% { opacity:0; } 30% { opacity:0; } 40%{ opacity:1; }}
+
+/*slide ANIMATIONS*/
+.sld4 {
+  animation: fadeInSLD4 ease 5s;
+  -webkit-animation: fadeInSLD4 ease 5s;
+  -moz-animation: fadeInSLD4 ease 5s;
+  -o-animation: fadeInSLD4 ease 5s;
+  -ms-animation: fadeInSLD4 ease 5s;
+}
+
+@keyframes fadeInSLD4 { 0% { opacity:0; } 50%{ opacity:0; } 60% { opacity:1; }}
+@-moz-keyframes fadeInSLD4 { 0% { opacity:0; } 50%{ opacity:0; } 60% { opacity:1; }}
+@-webkit-keyframes fadeInSLD4 { 0% { opacity:0; } 50% { opacity:0; } 60%{ opacity:1; }}
+@-o-keyframes fadeInSLD4 { 0% { opacity:0; } 50% { opacity:0; } 60%{ opacity:1; }}
+@-ms-keyframes fadeInSLD4 { 0% { opacity:0; } 50% { opacity:0; } 60%{ opacity:1; }}
+
+/*slide ANIMATIONS*/
+.sld5 {
+  animation: fadeInSLD5 ease 5s;
+  -webkit-animation: fadeInSLD5 ease 5s;
+  -moz-animation: fadeInSLD5 ease 5s;
+  -o-animation: fadeInSLD5 ease 5s;
+  -ms-animation: fadeInSLD5 ease 5s;
+}
+
+@keyframes fadeInSLD5 { 0% { opacity:0; } 70%{ opacity:0; } 80% { opacity:1; }}
+@-moz-keyframes fadeInSLD5 { 0% { opacity:0; } 70%{ opacity:0; } 80% { opacity:1; }}
+@-webkit-keyframes fadeInSLD5 { 0% { opacity:0; } 70% { opacity:0; } 80%{ opacity:1; }}
+@-o-keyframes fadeInSLD5 { 0% { opacity:0; } 70% { opacity:0; } 80%{ opacity:1; }}
+@-ms-keyframes fadeInSLD5 { 0% { opacity:0; } 70% { opacity:0; } 80%{ opacity:1; }}
+
+/*slide ANIMATIONS*/
+.sld6 {
+  animation: fadeInSLD6 ease 5s;
+  -webkit-animation: fadeInSLD6 ease 5s;
+  -moz-animation: fadeInSLD6 ease 5s;
+  -o-animation: fadeInSLD6 ease 5s;
+  -ms-animation: fadeInSLD6 ease 5s;
+}
+
+@keyframes fadeInSLD6 { 0% { opacity:0; } 90%{ opacity:0; } 100% { opacity:1; }}
+@-moz-keyframes fadeInSLD6 { 0% { opacity:0; } 90%{ opacity:0; } 100% { opacity:1; }}
+@-webkit-keyframes fadeInSLD6 { 0% { opacity:0; } 90% { opacity:0; } 100%{ opacity:1; }}
+@-o-keyframes fadeInSLD6 { 0% { opacity:0; } 90% { opacity:0; } 100%{ opacity:1; }}
+@-ms-keyframes fadeInSLD6 { 0% { opacity:0; } 90% { opacity:0; } 100%{ opacity:1; }}
+
+/*slide ANIMATIONS*/
+.sld7 {
+  animation: fadeInSLD7 ease 6s;
+  -webkit-animation: fadeInSLD7 ease 6s;
+  -moz-animation: fadeInSLD7 ease 6s;
+  -o-animation: fadeInSLD7 ease 6s;
+  -ms-animation: fadeInSLD7 ease 6s;
+}
+
+@keyframes fadeInSLD7 { 0% { opacity:0; } 90%{ opacity:0; } 100% { opacity:1; }}
+@-moz-keyframes fadeInSLD7 { 0% { opacity:0; } 90%{ opacity:0; } 100% { opacity:1; }}
+@-webkit-keyframes fadeInSLD7 { 0% { opacity:0; } 90% { opacity:0; } 100%{ opacity:1; }}
+@-o-keyframes fadeInSLD7 { 0% { opacity:0; } 90% { opacity:0; } 100%{ opacity:1; }}
+@-ms-keyframes fadeInSLD7 { 0% { opacity:0; } 90% { opacity:0; } 100%{ opacity:1; }}
+
+/*slide ANIMATIONS*/
+.sld8 {
+  animation: fadeInSLD8 ease 7s;
+  -webkit-animation: fadeInSLD8 ease 7s;
+  -moz-animation: fadeInSLD8 ease 7s;
+  -o-animation: fadeInSLD8 ease 7s;
+  -ms-animation: fadeInSLD8 ease 7s;
+}
+
+@keyframes fadeInSLD8 { 0% { opacity:0; } 90%{ opacity:0; } 100% { opacity:1; }}
+@-moz-keyframes fadeInSLD8 { 0% { opacity:0; } 90%{ opacity:0; } 100% { opacity:1; }}
+@-webkit-keyframes fadeInSLD8 { 0% { opacity:0; } 90% { opacity:0; } 100%{ opacity:1; }}
+@-o-keyframes fadeInSLD8 { 0% { opacity:0; } 90% { opacity:0; } 100%{ opacity:1; }}
+@-ms-keyframes fadeInSLD8 { 0% { opacity:0; } 90% { opacity:0; } 100%{ opacity:1; }}
